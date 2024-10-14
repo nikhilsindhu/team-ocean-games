@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AfacadFlux";
+  src: url("./assets/fonts/AfacadFlux/AfacadFlux-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AfacadFlux";
+  src: url("./assets/fonts/AfacadFlux/AfacadFlux-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AfacadFlux";
+  src: url("./assets/fonts/AfacadFlux/AfacadFlux-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* static/AfacadFlux-Thin.ttf
+  static/AfacadFlux-ExtraLight.ttf
+  static/AfacadFlux-Light.ttf
+  static/AfacadFlux-Regular.ttf
+  static/AfacadFlux-Medium.ttf
+  static/AfacadFlux-SemiBold.ttf
+  static/AfacadFlux-Bold.ttf
+  static/AfacadFlux-ExtraBold.ttf
+  static/AfacadFlux-Black.ttf */
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  scroll-behavior: smooth;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  @apply bg-black;
+  @apply font-primary;
+  @apply font-normal;
+  @apply text-base;
+  @apply text-gray-200;
+
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
