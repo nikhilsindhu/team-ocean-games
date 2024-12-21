@@ -1,0 +1,52 @@
+.privacy-policy-section {
+  @apply flex w-full;
+}
+
+.privacy-policy-section__container {
+  @apply mx-auto flex w-full max-w-screen-lg flex-col items-center border-b-paarl pb-28 pt-36;
+  border-bottom-width: 1px;
+
+  h1 {
+    @apply mb-4 py-1 text-6xl font-semibold text-turquoise;
+  }
+
+  h2 {
+    @apply mb-4 py-1 text-4xl font-semibold text-turquoise;
+  }
+
+  h3 {
+    @apply mb-3 py-1 text-2xl font-semibold text-aqua-forest;
+  }
+
+  h4 {
+    @apply mb-2 py-1 text-xl font-semibold text-aqua-forest;
+  }
+
+  p {
+    @apply mb-2 max-w-screen-md py-2 text-xl text-gray-100;
+  }
+
+  a {
+    @apply cursor-pointer text-paarl hover:underline;
+  }
+
+  ul {
+    display: block;
+    list-style-type: square;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+  }
+
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    @apply text-lg text-gray-100;
+  }
+}
+
+.privacy-policy-section__canvas {
+  @apply flex h-auto;
+  max-width: 580px;
+}

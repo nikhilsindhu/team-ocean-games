@@ -1,0 +1,21 @@
+.about-section {
+  @apply flex w-full;
+}
+
+.about-section__container {
+  @apply border-b-paarl mx-auto flex w-full max-w-screen-lg flex-col items-center pb-28 pt-36;
+  border-bottom-width: 1px;
+
+  h2 {
+    @apply text-turquoise mb-4 py-1 text-6xl font-semibold;
+  }
+
+  p {
+    @apply mb-2 max-w-screen-md py-2 text-xl text-gray-100;
+  }
+}
+
+.about-section__canvas {
+  @apply flex h-auto;
+  max-width: 580px;
+}

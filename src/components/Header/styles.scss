@@ -1,0 +1,19 @@
+.header {
+  @apply fixed left-0 top-0 z-50 flex w-full backdrop-blur-sm;
+}
+
+.header__navigation {
+  @apply mx-auto flex w-full max-w-screen-lg items-center justify-between px-4 py-6;
+}
+
+.header__logo-container {
+  @apply flex lg:flex-1;
+}
+
+.header__logo-link {
+  @apply -m-1.5 p-1.5;
+}
+
+.header__logo-img {
+  @apply h-20 w-auto;
+}

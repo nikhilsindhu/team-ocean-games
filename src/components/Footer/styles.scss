@@ -1,0 +1,42 @@
+.footer {
+  @apply flex h-auto w-full bg-black;
+}
+
+.footer__container {
+  @apply mx-auto flex w-full max-w-screen-lg flex-row items-center justify-between py-20;
+}
+
+.footer__copyright-section {
+  @apply flex flex-col align-middle;
+}
+
+.footer__copyright-text {
+  @apply text-lg font-semibold text-paarl;
+}
+
+.footer__privacy-policy-section {
+  @apply flex flex-col align-middle;
+}
+
+.footer__privacy-policy-section a {
+  @apply text-lg font-semibold text-paarl hover:underline;
+}
+
+.footer__social-media {
+  @apply flex flex-col;
+}
+
+.footer__social-media-hint {
+  @apply text-lg text-gray-100;
+}
+
+.footer__social-media-items {
+  @apply mt-4 flex list-none flex-row items-center justify-start gap-4;
+}
+
+.footer__social-media-item {
+}
+
+.footer__social-media-btn {
+  @apply h-10 w-10;
+}
