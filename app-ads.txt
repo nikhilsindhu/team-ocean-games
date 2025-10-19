@@ -4765,3 +4765,5 @@ meitu.com, 568, RESELLER
 #AppBroda
 lijit.com, 489954, DIRECT, fafdf38b16bf6b2b
 inmobi.com, b01aa06531c543d8a5fb9982f60afb00, RESELLER, 83e75a7ae333ca9d
+
+google.com, pub-9530659826017265, DIRECT, f08c47fec0942fa0
